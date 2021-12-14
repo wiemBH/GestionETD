@@ -1,20 +1,5 @@
--- phpMyAdmin SQL Dump
--- version 3.4.5
--- http://www.phpmyadmin.net
---
--- Client: localhost
--- Généré le : Sam 11 Avril 2020 à 12:32
--- Version du serveur: 5.5.16
--- Version de PHP: 5.3.8
-
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
 
 --
 -- Base de données: `bddgesnote`
@@ -42,6 +27,7 @@ CREATE TABLE IF NOT EXISTS `etudiant` (
 --
 
 INSERT INTO `etudiant` (`matricule`, `nom`, `prenom`, `datnaissance`, `sexe`, `filiere`, `niveau`) VALUES
+(8029, 'WIEM', 'BEN HLIMA', ' 11-06-1997', 'FEM', 'GT', '2'),
 (8030, 'MELOM', 'PATRICIA', ' 19-11-1996', 'FEM', 'GI', '1'),
 (8031, 'ISSA', 'ADOUM', '   11-06-1994', 'MASC', 'GI', '1'),
 (8032, 'NANTIGUA', 'RODOLPH', '   11-12-1995', 'MASC', 'GI', '1'),
